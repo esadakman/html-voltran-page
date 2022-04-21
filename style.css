@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+  }
+
+  header{
+    background-color: #f82929;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+  }
+  
+  header h1{
+    display: inline-block;
+    border: 8px solid white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+
+  .banner img{
+    max-width: 100%;
+
+  }
+
+  .main-nav {
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 100%;
+    background-color: whitesmoke;
+    justify-content: space-around ;
+    position: sticky;
+    top: 7rem;
+    z-index: 1;
+    
+    
+  }
+  .main-nav ul{
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .main-nav li {
+    display: inline;
+    padding: 80px;
+  }
+  
+  .main-nav li a {
+    text-decoration: none;
+    color: rgb(96, 93, 93);
+    font-size: 1.5rem;
+  }
+
+  .main-nav li a:hover {
+    text-decoration: underline;
+  }
+
+  .main-nav li .join {
+    color: #f82929;
+  }
+  
+  article{
+    text-align: center;
+    padding: 0 12rem;
+    margin-top: 5rem;
+  }
+
+  article h2 {
+    font-size: 42px;
+    color: #F63232;
+    text-align: left;
+    padding-bottom: 1rem;
+      
+  }
+  
+  article p {
+    color: #4B4B4B;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2em;
+  }
+
+  article p::first-line{
+    color: black;
+    font-weight: bold;
+  }
+
+
+  .images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+  }
+  
+  .images li {
+    display: inline-block;
+    width: 30%;
+    margin: 0 45px;
+    position: relative;
+  }
+  .images li img{
+    width: 90%;
+  }
+
+  section.join{
+    text-align: center;
+  }
+  
+  section.join h2{
+    font-size: 32px;
+    color: #4B4B4B;
+    padding: 1rem 0;
+  }
+  
+  section.join p{
+    color:#4B4B4B;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 50px;
+    border: 4px solid #71d300;
+  }
+
+  #submit{
+    color: rgb(96, 96, 96);
+    cursor: pointer;
+  }
+
+  form input:focus{
+    border: 4px solid #71d300;;
+    outline: none;
+  }
+
+  footer{
+    background-color: #F63232;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 18px;
+    margin-top: 1.5rem;
+  }
+
+
+  
+  
+
+  
